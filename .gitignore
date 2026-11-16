@@ -1,0 +1,47 @@
+# ---- 通用 ----
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 环境与密钥（务必不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---- 编辑器 ----
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+.npm/
+coverage/
+pnpm-lock.yaml
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# ---- Java / Kotlin ----
+target/
+*.class
+.gradle/
+
+# ---- Go ----
+bin/
+vendor/
